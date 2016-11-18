@@ -6,8 +6,8 @@ deploy:
 	git checkout develop
 
 	# Build new files
-	stack exec site clean
-	stack exec site build
+	stack exec typeable-homepage clean
+	stack exec typeable-homepage build
 
 	# Get previous files
 	git fetch --all
